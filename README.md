@@ -29,11 +29,16 @@ by design, to allow the user to have full control over every aspect of their pro
    - **react-dom**: enables us to render React within the DOM                          
    - **webpack**: bundler that converts your source code into a production-ready output
    - **webpack-dev-server**: transforms source code and serves it on a web server as it's developed continuously. Allows for output of your code in the browser
+   - **webpack-cli**: allows running webpack commands through the command line interface 
    -  **html-webpack-plugin**: an extension to webpack, adds basic index html file   
    -  **@babel/core**: Javascript based transpiler to convert modern JS into production-ready 
-       version that's compatible with all web-browsers                             
+       version that's compatible with all web-browsers, main webpack dependency, babel transfrom script                              
    - **babel-loader**: connects Babel to webpack's build process
-   - **@babel/present-env**: group of commonly used Babel Plugins bundled together, converts modern JS feautures into widely compatible syntax
+   - **@babel/present-env**: group of commonly used Babel Plugins bundled together, converts modern JS features into widely compatible syntax, ES6+ into valid ES5
+   - **@babel/preset-react**: is used for tranforming JSX and React Class Syntax into valid JS code
+   - **eslint**: core dependancy for all eslint functionalities
+   - **babel-eslint**: parser that enables eslint to lint all valid ES6+ code
+   - **eslint-config-react + eslint-plugin-react**: both enable linting to use pre-made rules
 
 ## Roadmap - Future Updates
 - NPM I Support - set and create an npm install script locally to save the hassle of 
